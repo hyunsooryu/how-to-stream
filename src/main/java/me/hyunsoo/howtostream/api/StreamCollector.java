@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 public class StreamCollector {
 
     public static void main(String[] args) {
+        
         List.of(
                 Student.builder().name("andy").score(95).build(),
                 Student.builder().name("minji").score(82).build(),
